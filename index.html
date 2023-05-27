@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <title>Khush - Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Khush's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--This is the Website main Page First Section-->
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Khush</span>
+
+          <div>and I am a Web passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="img/bg.png" alt="" />
+        </div>
+      </section>
+      <!--End of First Section-->
+
+      <!--This is the Website Second Section-->
+      <hr />
+      <section class="secondSection">
+        <h1><span class="text-grey">01</span> Past Experience</h1>
+        <h5>MY KNOWLEDGE LEVEL IN SOFTWARE</h5>
+      </section>
+      <!--End of Second Section-->
+    </main>
+
+    <!-- <footer>
+      <div class="flex">
+        <div class="footer-first">
+          <h3>Khush's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second"></div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+    </footer> -->
+
+    <!--This code is the Typejs code Start-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "&amp; Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <!--End of Typejs code-->
+  </body>
+</html>
